@@ -22,6 +22,8 @@ A non-exhustive list of resources used in creating this project:
 - [node2vec](https://snap.stanford.edu/node2vec/)
 - A few Stanford University [Machine Learning with Graphs](https://web.stanford.edu/class/cs224w/) lectures
 
+No LLMs have been used for development.
+
 ## Data
 The Twitter dataset is available for download [here](https://snap.stanford.edu/data/ego-Twitter.html).
 
