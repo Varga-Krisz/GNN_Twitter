@@ -1,0 +1,15 @@
+numpy>=2.0
+pandas>=2.2
+matplotlib >= 3.9
+torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+torch-geometric>=2.6
+
+
+#optional
+pyg-lib>=0.4 -f https://data.pyg.org/whl/torch-2.5.1+cu121.html
+torch-scatter>=2.1 -f https://data.pyg.org/whl/torch-2.5.1+cu121.html
+torch-sparse>=0.6 -f https://data.pyg.org/whl/torch-2.5.1+cu121.html
+torch-cluster>=1.6 -f https://data.pyg.org/whl/torch-2.5.1+cu121.html
+torch-spline_conv>=1.2 -f https://data.pyg.org/whl/torch-2.5.1+cu121.html
+
+--extra-index-url https://pypi.ngc.nvidia.com
