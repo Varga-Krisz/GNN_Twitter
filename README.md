@@ -5,13 +5,13 @@ Link prediction with graph neural networks on the Twitter dataset.
 ### Members: Varga Krisztián - PVQIYU
 
 ## File descriptions
-The `nagyHF.ipynb` notebook contains all the necessary code for this project,
-including the data and requirement downloads, data preparation, and the model training.
+The `nagyHF.ipynb` notebook contains all the model training for this project, with all background functions and classes found in `model.py`.
 
-The data is preprocessed into a DataFrame of bag-of-words in the `feature_bow.pkl` file extracted from `feature_bow.rar`,
+The data is preprocessed into a pandas DataFrame by the `data_processing.ipynb` notebook.
+The `feature_bow.pkl` file extracted from `feature_bow.rar` contains the bag-of-words vectors of the nodes,
 and `node2vec_trained.pt` is a node embedding pretrained on the train data.
 
-The required `Documentation.pdf` is currently missing due to time constraints and there being no results worth documenting.
+The `Documentation.pdf` gives a longer description of what this project is about.
 
 ## Related works and used resources
 A non-exhustive list of resources used in creating this project:
